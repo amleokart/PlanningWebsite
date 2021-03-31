@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <title> Raspored </title>
+    <link rel="stylesheet" type="text/css" href="raspored.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="trenutno.js"></script>
+  </head>
+
+    <body style="background-color: #D3D3D3;">
+            
+          <div style="text-align: center; padding: 2%;">
+            <ul style="list-style-type: none; background-color: #DCDCDC; font-family: monospace;">
+              <li style="display: inline; padding: 5%;">
+                <a href="raspored.html" style="color: black; text-decoration: none; font-size: 15pt;"> RASPORED </a>
+              </li>
+              <li style="display: inline; padding: 5%;">
+                <a href="planiranjeNastavnik.html" style="color: black; text-decoration: none; font-size: 15pt;"> NASTAVNIK </a>
+              </li>
+              <li style="display: inline; padding: 5%;">
+                <a href="podaciStudent.html" style="color: black; text-decoration: none; font-size: 15pt;"> STUDENT </a>
+              </li>
+              <li style="display: inline; padding: 5%;">
+                <a href="posjecenost.html" style="color: black; text-decoration: none; font-size: 15pt;"> POSJEĆENOST </a>
+              </li>
+              <li style="display: inline; padding: 5%;">
+                <a href="obavijesti.html" style="color: black; text-decoration: none; font-size: 15pt;"> OBAVIJESTI </a>
+              </li>
+            </ul>
+          </div>
+
+          <div style="padding: 3%; padding-left: 7%;">
+            <div style="text-align: center; background-color: #D3D3D3; padding-right: 6%; font-family: monospace; font-size: 10pt;">
+              <ul style="list-style-type: none; ">
+                <li style="display: inline; padding-left: 9%;"> 08:00 </li>
+                <li style="display: inline; padding-left: 9%;"> 10:00 </li>
+                <li style="display: inline; padding: 8%;"> 12:00 </li>
+                <li style="display: inline; padding: 6%;"> 15:00 </li>
+                <li style="display: inline; padding: 5%;"> 17:00 </li>
+                <li style="display: inline; padding: 5%;"> 19:00 </li>
+              </ul>
+            </div> 
+            
+            <div id="sadrzaj">
+            <table class="tg" style="width: 90%; background-color: #DCDCDC;">
+            <thead>
+              <tr>
+                <th class="tg-0pky" style="text-align: right; font-size: 15pt; background-color: #D3D3D3; border-left: #D3D3D3; border-top: #D3D3D3; border-bottom: #D3D3D3;"> Ponedjeljak&nbsp; </th>
+                <th class="tg-0pky" style="border-right: dashed;">&nbsp;</th>
+                <th class="tg-0pky">&nbsp;</th>
+                <th class="tg-p8gx aktivnost2" colspan="6">WT<br>predavanje<br></th>
+                <th class="tg-s416" colspan="3" style="border-right: dashed;">WT<br>vježbe</th>
+                <th class="tg-0pky"></th>
+                <th class="tg-s416" colspan="6">RMA<br>predavanje</th>
+                <th class="tg-0pky"></th>
+                <th class="tg-0pky" style="border-left: dashed;"></th>
+                <th class="tg-0pky"></th>
+                <th class="tg-0pky" style="border-left: dashed;"></th>
+                <th class="tg-0pky" style="border-left: dashed;"></th>
+                <th class="tg-1692" style="border-left: dashed;"></th>
+                <th class="tg-0pky"></th>
+                <th class="tg-0pky" style="border-left: dashed;"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-0pky" style="text-align: right; font-size: 15pt; background-color: #D3D3D3; border-left: #D3D3D3; border-top: #D3D3D3; border-bottom: #D3D3D3;"> Utorak&nbsp; </td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky" ></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-s416" colspan="3" style="border-left: dashed;">RMA <br>vježbe<br></td>
+                <td class="tg-s416" colspan="4">DM<br>tutorijal</td>
+                <td class="tg-s416" colspan="6">DM <br>predavanje</td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+              </tr>
+              <tr>
+                <td class="tg-0pky" style="text-align: right; font-size: 15pt; background-color: #D3D3D3; border-left: #D3D3D3; border-top: #D3D3D3; border-bottom: #D3D3D3;"> Srijeda&nbsp; </td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-s416" colspan="6">OI<br>predavanje<br></td>
+                <td class="tg-0pky" colspan="6"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+              </tr>
+              <tr>
+                <td class="tg-0pky" style="text-align: right; font-size: 15pt; background-color: #D3D3D3; border-left: #D3D3D3; border-top: #D3D3D3; border-bottom: #D3D3D3;"> Četvrtak&nbsp; </td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"><br><br><br></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-left: dashed;"></td>
+              </tr>
+              <tr>
+                <td class="tg-0pky" style="text-align: right; font-size: 15pt; background-color: #D3D3D3; border-left: #D3D3D3; border-top: #D3D3D3; border-bottom: #D3D3D3;"> Petak&nbsp; </td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;">&nbsp;</td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"><br><br><br></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;"></td>
+                <td class="tg-0pky"></td>
+                <td class="tg-0pky" style="border-right: dashed;">&nbsp;</td>
+                <td class="tg-0pky">&nbsp;</td>
+                <td class="tg-0pky">&nbsp;</td>
+                <td class="tg-0pky" style="border-left: dashed;">&nbsp;</td>
+                <td class="tg-0pky">&nbsp;</td>
+                <td class="tg-0pky" style="border-left: dashed;">&nbsp;</td>
+                <td class="tg-0pky" style="border-left: dashed;">&nbsp;</td>
+                <td class="tg-0pky" style="border-left: dashed;">&nbsp;</td>
+                <td class="tg-0pky">&nbsp;</td>
+                <td class="tg-0pky" style="border-left: dashed;">&nbsp;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+
+            <button onclick="trenutniCas()"> Prikaži trenutni čas </button>
+
+          </div>
+          <footer><h4 style="color: black; background-color: #DCDCDC; font-family: monospace; text-align: center; font-size: 10pt;"> Elektrotehnički fakultet, Sarajevo 2020. </h4></footer>
+    </body>
+</html>

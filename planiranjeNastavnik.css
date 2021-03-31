@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+  
+body {
+    display: grid;
+    grid-template-rows: 150px 1fr 50px;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80%;
+    border: black;
+}
+
+form {
+    margin: 10% 0 0 0;
+}

@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: monospace;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .nultiwrapper {
+      display: grid;
+      grid-template-columns: 10% 90%;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+  }
+
+  .logo {
+    background: url("http://etf.unsa.ba/etf/css/images/etf-dugi-en.gif") no-repeat;
+    width: 64px;
+    height: 64px;
+    padding: 5%;
+  }
+
+  .left-side ul {
+    margin: 0;
+    list-style: none;
+  }
+
+  .midlle ul {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+  }
+
+  .midlle ul li p {
+    font-size: 15px;
+    font-family: monospace;
+  } 
+
+  .left-side ul li p {
+    font-size: 15px;
+    font-family: monospace;
+  }
+
+  a {
+    font-family: monospace;
+    font-size: 10pt;
+  }
+
+  a:link {
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+
+  .midlle {
+    width: 100%;
+    height: auto;
+  }
+
+.tg {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.tg td {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:monospace;
+    font-size:15px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:monospace;
+    font-size:15px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-0lax { 
+    text-align:left;
+    vertical-align:top;
+}
+  
+@media all and (max-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 20% 50% 10%;
+    grid-template-areas:
+    "logo logo"
+    "meni meni"
+    "predmetni sedmice"
+    "studenti studenti"
+    "footer";
+  }
+  }
+  
+  
