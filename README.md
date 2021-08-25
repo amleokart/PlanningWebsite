@@ -1,4 +1,4 @@
-# RMA-WebAplikacija
-Web aplikacija za praćenje i planiranje online nastave
+# PlanningWebsite
 
-Kreirano u svrhu predmeta Frontend web tehnologije
+Web application for monitoring and planning online classes
+
